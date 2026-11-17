@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="fonts" href="https://fonts.google.com/specimen/Space+Mono">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <style>
+  </style>
+</head>
+<body>
+  <main>
+    <header>SPLI<span>TTER</span></header>
+    <section class="body">
+      <section class="bill">
+        <div for="bill" class="bill-label">Bill</div>
+        <form id="bill-form">
+          <!-- Text input -->
+          <label for="bill"></label>
+          
+          <input type="text" id="bill-amount" name="bill" placeholder="0" required />
+        </form>
+
+        <section class="tips-buttons">
+          <div class="select-tip">Select Tip %</div>
+          <button class="five-percent">5%</button>
+          <button class="ten-percent">10%</button>
+          <button class="fifteen-percent">15%</button>
+          <button class="twenty-five-percent">25%</button>
+          <button class="fifty-percent">50%</button>
+          <form class="custom-percent">
+            <!-- Text input -->
+            <label for="custom-tip"></label>
+            <input type="text" id="custom-tip-amount" name="custom-tip" placeholder="Custom" required />
+          </form>
+        
+        </section>
+
+        <section class="number-of-people">
+          <div class="people">Number of People</div>
+          <form id="number-of-people-form">
+            <!-- Text input -->
+            <label for="bill"></label>
+            <input type="text" id="number-of-people" name="number-of-people"
+             placeholder="0" required>
+          </form>
+        </section>
+
+      </section>
+      <section class="tip-amount">  
+        <section class="group-1">
+          <div class="tip-amount-per-person">Tip Amount <span>/ person</span></div>
+          <div class="result-tip-amount">$0.00</div>
+        </section>
+        <section class="group-2">
+          <div class="total-bill-per-person">  Total <span>/ person</span></div>
+          <div class="result-bill-per-person">$0.00</div>
+        </section>
+        <button class="reset-btn">Reset</button>
+      </section>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/nottohave" target="_blank">Fay</a>.
+  </footer>
+</body>
+</html>
