@@ -26,11 +26,13 @@ five_percentbtn.addEventListener("click" , (event) => {
     fifty_percentbtn.style.background = "";
 
     const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
 
     const result_2 = result_1 * 0.05
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
 
+    const result_3 = result_1 + result_2
+    console.log(result_3.toFixed(2))
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
     
     
 })
@@ -48,10 +50,13 @@ ten_percentbtn.addEventListener("click" , (event) => {
     fifty_percentbtn.style.background = "";
 
     const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
 
     const result_2 = result_1 * 0.10
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
+
+    const result_3 = result_1 + result_2
+    console.log(result_3.toFixed(2))
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
     
 })
@@ -69,10 +74,13 @@ fifteen_percentbtn.addEventListener("click" , (event) => {
 
 
     const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
 
     const result_2 = result_1 * 0.15
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
+    
+    const result_3 = result_1 + result_2
+    console.log(result_3.toFixed(2))
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
     
 })
@@ -89,10 +97,13 @@ twenty_five_percentbtn.addEventListener("click" , (event) => {
     fifty_percentbtn.style.background = "";
 
     const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
 
     const result_2 = result_1 * 0.25
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
+    
+    const result_3 = result_1 + result_2
+    console.log(result_3.toFixed(2))
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
     
 })
@@ -109,10 +120,13 @@ fifty_percentbtn.addEventListener("click" , (event) => {
     fifty_percentbtn.style.background = "var(--green-400-)";
 
     const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
 
     const result_2 = result_1 * 0.5
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
+    
+    const result_3 = result_1 + result_2
+    console.log(result_3.toFixed(2))
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
     
 })
@@ -135,11 +149,16 @@ custom_tip.addEventListener('submit', function(event) {
     fifty_percentbtn.style.background = "";
 
 
-    const result_1 = bill_value.value / number_of_people.value
-    total_bill_per_person.innerHTML = "$" + result_1.toFixed(2);
+    const result_1 = bill_value.value / number_of_people.value;
 
-    const result_2 = result_1 * (customTip / 100)
+    const result_2 = result_1 * (customTip / 100);
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
+
+    const result_3 = result_1 + result_2;
+    console.log(result_3.toFixed(2));
+    total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
+
+
 
 })
 
