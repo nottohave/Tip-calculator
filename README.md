@@ -58,7 +58,7 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-I learn how to setup a form and get and retrieve user input
+I learn how to setup a form and get and retrieve user input. Then calculate the bill amount per person and tip for each.
 ```html
 <form id="bill-form">
   <!-- Text input -->
@@ -86,30 +86,18 @@ I learn how to setup a form and get and retrieve user input
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
+- The project need to have an alert or a user message if their input values are not integer numbers.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-
-### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
+- [Google](https://www.google.com) - This helped me for looking up suggestions and answers for css values and javascript DOM values.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website Github- [Fay](https://github.com/nottohave)
+- Frontend Mentor - [@nottohave](https://www.frontendmentor.io/profile/nottohave)
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+Thank you Frontend Mentor for the experience, the learning path and the experience of setting up these projects. Thank you for the templates and all the other needs.
