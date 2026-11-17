@@ -235,10 +235,17 @@
     #bill-amount:hover, #custom-tip-amount:hover,
      #number-of-people:hover { 
      cursor: pointer;
+     border: 2px solid var(--green-400-);
+     opacity: 80%;
     }
 
     button:hover {
      cursor: pointer;
+     background-color: var(--green-200-);    
+    }
+
+    .reset-btn:hover {
+     background-color: var(--green-200-);    
     }
 
     .attribution { font-size: 0.6875rem; text-align: center; }
