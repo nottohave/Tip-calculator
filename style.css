@@ -232,8 +232,13 @@
      border: none;
     }
 
-    #bill-amount, #custom-tip-amount, #number-of-people {
-     brightness: 80%;
+    #bill-amount:hover, #custom-tip-amount:hover,
+     #number-of-people:hover { 
+     cursor: pointer;
+    }
+
+    button:hover {
+     cursor: pointer;
     }
 
     .attribution { font-size: 0.6875rem; text-align: center; }

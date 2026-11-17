@@ -158,8 +158,6 @@ custom_tip.addEventListener('submit', function(event) {
     console.log(result_3.toFixed(2));
     total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
-
-
 })
 
 // create a reset button, reset all values and return 0.00 and $0.00
@@ -180,6 +178,5 @@ resetBtn.addEventListener("click", (event) => {
     fifteen_percentbtn.style.background = "";
     twenty_five_percentbtn.style.background = "";
     fifty_percentbtn.style.background = "";
-
 
 })
