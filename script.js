@@ -15,7 +15,11 @@ const twenty_five_percentbtn = document.querySelector(".twenty-five-percent");
 const fifty_percentbtn = document.querySelector(".fifty-percent")
 
 five_percentbtn.addEventListener("click" , (event) => {
-    
+     const bill = Number(bill_value.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(bill) || bill <= 0) { 
+     alert("Enter a number greater than 0 for the bill amount")
+    /* show error */ }
+
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
@@ -39,7 +43,11 @@ five_percentbtn.addEventListener("click" , (event) => {
 
 
 ten_percentbtn.addEventListener("click" , (event) => {
-    
+    const bill = Number(bill_value.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(bill) || bill <= 0) { 
+     alert("Enter a number greater than 0 for the bill amount")
+    /* show error */ }
+
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
@@ -62,7 +70,11 @@ ten_percentbtn.addEventListener("click" , (event) => {
 })
 
 fifteen_percentbtn.addEventListener("click" , (event) => {
-    
+    const bill = Number(bill_value.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(bill) || bill <= 0) { 
+     alert("Enter a number greater than 0 for the bill amount")
+    /* show error */ }
+
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
@@ -86,7 +98,11 @@ fifteen_percentbtn.addEventListener("click" , (event) => {
 })
 
 twenty_five_percentbtn.addEventListener("click" , (event) => {
-    
+    const bill = Number(bill_value.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(bill) || bill <= 0) { 
+     alert("Enter a number greater than 0 for the bill amount")
+    /* show error */ }
+
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
@@ -110,12 +126,10 @@ twenty_five_percentbtn.addEventListener("click" , (event) => {
 
 fifty_percentbtn.addEventListener("click" , (event) => {
     
-    const number_of_people = Number(number_of_people.value); // "42.50" → 42.5, "abc" → NaN
-    if (!Number.isFinite(number_of_people) || number_of_people <= 0) {
-        console.log(Number.isFinite(number_of_people))
-     }
-    //  console.log(billInput)
-    //  console.log(billInput.value)
+    const bill = Number(bill_value.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(bill) || bill <= 0) { 
+     alert("Enter a number greater than 0 for the bill amount")
+    /* show error */ }
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
