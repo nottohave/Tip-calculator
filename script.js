@@ -185,14 +185,14 @@ const resetBtn = document.querySelector(".reset-btn");
 const custom_tip_amount = document.querySelector("#custom-tip-amount");
 
 resetBtn.addEventListener("click", (event) => {
-    bill_value.value = "";
+    bill_value.value = "0";
     console.log(bill_value.value);
-    number_of_people.value = "";
+    number_of_people.value = "0";
     console.log(number_of_people.value);
     custom_tip_amount.value = "";
     console.log(custom_tip_amount.value);
-    total_bill_per_person.innerHTML = "$" + "";
-    tip_amount_per_person.innerHTML = "$" + "";
+    total_bill_per_person.innerHTML = "$" + "0.00";
+    tip_amount_per_person.innerHTML = "$" + "0.00";
     five_percentbtn.style.background = "";
     ten_percentbtn.style.background = "";
     fifteen_percentbtn.style.background = "";
