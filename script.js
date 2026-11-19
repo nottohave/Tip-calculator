@@ -110,6 +110,12 @@ twenty_five_percentbtn.addEventListener("click" , (event) => {
 
 fifty_percentbtn.addEventListener("click" , (event) => {
     
+    const number_of_people = Number(number_of_people.value); // "42.50" → 42.5, "abc" → NaN
+    if (!Number.isFinite(number_of_people) || number_of_people <= 0) {
+        console.log(Number.isFinite(number_of_people))
+     }
+    //  console.log(billInput)
+    //  console.log(billInput.value)
     const bill_amount = Number.isFinite(parseInt(bill_value.value));
     const number_people = Number.isFinite(parseInt(number_of_people.value));
 
@@ -125,7 +131,7 @@ fifty_percentbtn.addEventListener("click" , (event) => {
     tip_amount_per_person.innerHTML = "$" + result_2.toFixed(2);
     
     const result_3 = result_1 + result_2
-    console.log(result_3.toFixed(2))
+    // console.log(result_3.toFixed(2))
     total_bill_per_person.innerHTML = "$" + result_3.toFixed(2);
 
     
